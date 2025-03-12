@@ -2,8 +2,9 @@ import sys
 import os
 from PIL import Image
 
-path = sys.argv[1]
-directory = sys.argv[2]
+
+path = sys.argv[0]
+directory = sys.argv[1]
 
 if not os.path.exists(directory):
     os.makedirs(directory)
